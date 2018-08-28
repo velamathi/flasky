@@ -2,19 +2,27 @@ git branch develop
 git branch 
 git checkout develop 
 
+# Git status
 git status
 
+# Git commit 
 git commit -am "Added something new"
 
+# Git commit logs 
 git log 
 
+#Git to a specific branch
 git checkout master 
 
+# Checking out a branch
 git checkout develop 
 
+# Creates a new branch and checking out the new branch 
+# from current branch
 git checkout -b "feature/new-feature"
 
 
-
+# Merging to the branch from which the 
+# branch was created in the first place
 git merge feature/new-feature
 
